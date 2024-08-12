@@ -29,7 +29,7 @@ inquirer
     .then((response) => {
         const newLogo = drawLogo(response);
 
-        fs.writeFile('./dist/generated-logo.svg', newLogo, (err) => {
-            err ? console.log(err) : console.log('Successfully generated logo SVG!');
+        fs.writeFile('./dist/logo.svg', newLogo, (err) => {
+            err ? console.log(err) : console.log('Generated logo.svg');
         });
     });
