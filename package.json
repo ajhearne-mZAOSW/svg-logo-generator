@@ -1,0 +1,20 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "10-OOP/02-Challenge - SVG Logo Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
